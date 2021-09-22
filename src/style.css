@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./my-font.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
 html,
 body {
   margin: 0;
@@ -10,6 +17,7 @@ body {
   background-image: url("./icon.png");
   background-size: cover;
   box-sizing: border-box;
+  font-family: "MyFont";
 }
 .hello img {
   width: 100%;
