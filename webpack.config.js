@@ -7,6 +7,7 @@ module.exports = {
     index: "./src/index.js",
     pring: "./src/print.js",
   },
+  devtool: "inline-source-map",
   plugins: [
     new HtmlWebpackPlugin({
       title: "Development",
