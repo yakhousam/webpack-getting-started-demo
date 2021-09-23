@@ -8,6 +8,9 @@ module.exports = {
     pring: "./src/print.js",
   },
   devtool: "inline-source-map",
+  devServer: {
+    static: "./dist",
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: "Development",
