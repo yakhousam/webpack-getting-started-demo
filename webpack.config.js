@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     index: "./src/index.js",
     pring: "./src/print.js",
+    another: "./src/another-module.js",
   },
   devtool: "inline-source-map",
   devServer: {
